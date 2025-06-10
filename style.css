@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial;
+}
+
+#info-panel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  max-width: 220px;
+  border: 1px solid #eee;
+}
+
+.hidden {
+  display: none;
+}
+
+#part-name {
+  font-weight: bold;
+  color: #2c3e50;
+}
